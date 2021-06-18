@@ -3,7 +3,7 @@
 FROM node:14-slim
 
 ENV NODE_ENV=production
-WORKDIR /usr/src/app
+WORKDIR /app
 
 COPY ["package.json", "package-lock.json*", "./"]
 
