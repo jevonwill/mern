@@ -1,9 +1,10 @@
 .btn-warning {
     background-color: $warning;
+    color:$warning
 }
 
 // Color vars
-$warning: #fcc513; 
+$warning: #fcc513 !default; 
 
 
 // Import Bootstrap
