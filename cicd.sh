@@ -8,3 +8,6 @@ else
 	sudo mkdir /var/www/$1
 	sudo cp -r ~/$1 /var/www/
 fi
+
+sudo systemctl restart nginx
+sudo systemctl status nginx
