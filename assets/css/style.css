@@ -10758,11 +10758,12 @@ textarea.form-control-lg {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
+  color: #aeaec1;
 }
 
 .btn-warning {
   background-color: #fcc513;
-  color: white;
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
