@@ -10750,6 +10750,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-brand {
+  padding-left: 1rem;
+}
+
 .navbar {
   padding-top: 4rem;
 }
