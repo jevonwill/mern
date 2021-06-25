@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: Nunito !important;
+  font-family: "Nunito", sans-serif !important;
 }
 
 /*!
@@ -10758,7 +10758,7 @@ textarea.form-control-lg {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  color: #aeaec1;
+  color: #aeaec1 !important;
 }
 
 .btn-warning {
