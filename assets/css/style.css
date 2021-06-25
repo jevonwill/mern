@@ -10750,6 +10750,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar {
+  padding-top: 4rem;
+}
+
 .bg-light {
   background-color: white !important;
 }
