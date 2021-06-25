@@ -10751,7 +10751,8 @@ textarea.form-control-lg {
 }
 .bg-light li {
   margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
+  font-weight: bold;
 }
 
 .btn-warning {
