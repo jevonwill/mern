@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  font-family: Nunito !important;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10751,6 +10755,9 @@ textarea.form-control-lg {
 }
 .bg-light li {
   margin-left: 2rem;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
 }
 
 .btn-warning {
