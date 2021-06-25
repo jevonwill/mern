@@ -10749,6 +10749,10 @@ textarea.form-control-lg {
 .bg-light {
   background-color: white !important;
 }
+.bg-light li {
+  margin-left: 8px;
+  margin-right: 8px;
+}
 
 .btn-warning {
   background-color: #fcc513;
