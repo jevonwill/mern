@@ -10746,5 +10746,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bg-light {
+  background-color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
