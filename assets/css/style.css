@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: "Nunito", sans-serif !important;
+  font-family: "Nunito", sans-serif;
 }
 
 /*!
@@ -10757,6 +10757,9 @@ textarea.form-control-lg {
   display: inline-block;
   margin-bottom: 1rem;
   font-family: "Nunito", sans-serif;
+}
+.signup h1 {
+  color: #343563 !important;
 }
 
 .navbar-brand {
