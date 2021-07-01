@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 .signup-section {
-    margin-bottom: 10rem;
+    margin-bottom: 10rem !important;
     width: 100%;
     height: 100%;
 
@@ -12,7 +12,7 @@
     font-size: 42px;
     font-weight: 700;
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     font-family: 'Nunito', sans-serif;
 
     h1 {
