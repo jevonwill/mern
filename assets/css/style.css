@@ -10789,6 +10789,8 @@ textarea.form-control-lg {
 
 .test-class {
   font-size: 100px !important;
+  background-color: #fcc513;
+  color: white !important;
 }
 
 .btn-warning {
