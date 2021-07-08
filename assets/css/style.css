@@ -10761,7 +10761,7 @@ textarea.form-control-lg {
   font-size: 42px;
   font-weight: 700;
   display: inline-block;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   font-family: "Nunito", sans-serif;
 }
 .signup h1 {
@@ -10785,6 +10785,12 @@ textarea.form-control-lg {
   line-height: 28px;
   font-weight: 500;
   color: #aeaec1 !important;
+}
+
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 1.2rem;
+  margin: 0;
 }
 
 .btn-warning {

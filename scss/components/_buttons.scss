@@ -1,6 +1,12 @@
 @use '../custom' as *;
 
+//CSS for 'Sign In' button for index page
 
+.btn-rounded {
+   position: relative;
+   padding: 0.9375rem 1.2rem;
+   margin: 0;
+}
 
 .btn-warning {
     background-color: $warning;
