@@ -10787,10 +10787,8 @@ textarea.form-control-lg {
   color: #aeaec1 !important;
 }
 
-#round-button {
-  position: relative !important;
-  padding: 0.9375rem 1.2rem !important;
-  margin: 0 !important;
+.test-class {
+  font-size: 100px !important;
 }
 
 .btn-warning {

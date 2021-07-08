@@ -1,12 +1,11 @@
 @use '../custom' as *;
 
 //CSS for 'Sign In' button for index page
+.test-class {
+    font-size: 100px !important;
 
-#round-button {
-   position: relative !important;
-   padding: 0.9375rem 1.2rem !important;
-   margin: 0 !important;
 }
+
 
 .btn-warning {
     background-color: $warning;
