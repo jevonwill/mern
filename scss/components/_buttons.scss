@@ -1,15 +1,15 @@
 @use '../custom' as *;
 
 //CSS for 'Sign In' button for index page
-.test-class {
-    font-size: 100px !important;
-    background-color: $warning;
-    color: white !important;
 
-}
 
 
 .btn-warning {
     background-color: $warning;
     color: white !important;
+
+    &--signin {
+        padding: 0.9375rem 1.2rem;
+        margin: 0;
+    }
 }
