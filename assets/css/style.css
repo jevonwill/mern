@@ -10787,13 +10787,14 @@ textarea.form-control-lg {
   color: #aeaec1 !important;
 }
 
+.please-work {
+  padding: 0.9375rem 1.2rem !important;
+  margin: 0 !important;
+}
+
 .btn-warning {
   background-color: #fcc513;
   color: white !important;
-}
-.btn-warning--signin {
-  padding: 0.9375rem 1.2rem;
-  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,14 +2,12 @@
 
 //CSS for 'Sign In' button for index page
 
-
+.please-work {
+    padding: 0.9375rem 1.2rem !important;
+    margin: 0 !important;
+}
 
 .btn-warning {
     background-color: $warning;
     color: white !important;
-
-    &--signin {
-        padding: 0.9375rem 1.2rem;
-        margin: 0;
-    }
 }
