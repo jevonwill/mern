@@ -10751,7 +10751,7 @@ textarea.form-control-lg {
   }
 }
 .signup-section {
-  margin-bottom: 10rem !important;
+  margin-bottom: 10rem;
   width: 100%;
   height: 100%;
 }
@@ -10787,7 +10787,7 @@ textarea.form-control-lg {
   color: #aeaec1 !important;
 }
 
-.btn-rounded {
+.round-button {
   position: relative !important;
   padding: 0.9375rem 1.2rem !important;
   margin: 0 !important;
