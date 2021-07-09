@@ -10788,9 +10788,10 @@ textarea.form-control-lg {
 }
 
 .btn-xl {
-  padding: 5px 200px;
+  padding: 5px 20px;
   font-size: 20px;
   border-radius: 10px;
+  width: 28.75rem;
 }
 
 .btn-warning {
