@@ -10751,7 +10751,7 @@ textarea.form-control-lg {
   }
 }
 .col-md-6__image {
-  float: left;
+  float: right;
 }
 .col-md-6__signup {
   display: inline;

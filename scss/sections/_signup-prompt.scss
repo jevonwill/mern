@@ -1,7 +1,7 @@
 @use '../custom' as *;
 .col-md-6 {
     &__image {
-      float: left;
+      float: right;
     }
     &__signup {
       display: inline;
