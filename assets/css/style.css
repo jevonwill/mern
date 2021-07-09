@@ -10802,6 +10802,7 @@ textarea.form-control-lg {
   border-radius: 10px;
   width: 28.75rem;
   height: 3.75rem;
+  margin-bottom: 1rem;
 }
 
 .btn-warning {
