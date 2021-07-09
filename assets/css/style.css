@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
   font-family: "Nunito", sans-serif;
+  margin-left: 100px;
 }
 
 /*!
@@ -10793,7 +10794,7 @@ textarea.form-control-lg {
   border-radius: 10px;
   width: 28.75rem;
   height: 3.75rem;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
 }
 .btn-xl--top {
   margin-top: 2.5rem;
