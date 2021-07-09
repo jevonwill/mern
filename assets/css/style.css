@@ -10750,10 +10750,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.img-fluid {
-  display: inline-block;
-  vertical-align: top;
-  width: 46%;
+.col-md-6__image {
+  float: left;
+}
+.col-md-6__signup {
+  display: inline;
 }
 
 .signup-section {
@@ -10768,7 +10769,6 @@ textarea.form-control-lg {
   display: inline-block;
   margin-bottom: 1rem;
   font-family: "Nunito", sans-serif;
-  width: 46%;
 }
 .signup h1 {
   color: #343563 !important;

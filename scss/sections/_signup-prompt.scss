@@ -1,11 +1,15 @@
 @use '../custom' as *;
-.img-fluid {
-    display: inline-block;
-    vertical-align: top;
-    width: 46%;
-}
+.col-md-6 {
+    &__image {
+      float: left;
+    }
+    &__signup {
+      display: inline;
+    }
+  }
 
 .signup-section {
+
     width: 100%;
     height: 100%;
 
@@ -18,7 +22,7 @@
     display: inline-block;
     margin-bottom: 1rem;
     font-family: 'Nunito', sans-serif;
-    width: 46%;
+
     h1 {
         color: #343563 !important;
     }
