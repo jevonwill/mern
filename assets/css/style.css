@@ -10750,6 +10750,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.float-right {
+  float: right;
+}
+
 .signup-section {
   margin-bottom: 10rem;
   width: 100%;
