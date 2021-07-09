@@ -1,11 +1,12 @@
 @use '../custom' as *;
 
 //CSS for 'Sign In' button for index page
-
-.please-work {
-    padding: 0.9375rem 1.2rem !important;
-    margin: 0 !important;
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
 }
+
 
 .btn-warning {
     background-color: $warning;
