@@ -1,10 +1,7 @@
-const http = require('http');
-const port = 3000;
-http.createServer((req, res) => {
-    res.writeHead(200, {
-        "Content-Type": "text/plain"
-    });
-    res.write("Hello Readers!");
-    res.end();
-}).listen(port, "localhost");
-console.log(`Node Server is running on port : ${port}`)
+var http = require('http');
+
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World\n');
+}).listen(3000, "34.145.252.50");
+console.log('Server running at http://34.145.252.50:3000/');
