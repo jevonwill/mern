@@ -6,5 +6,5 @@ http.createServer((req, res) => {
     });
     res.write("Hello Readers!");
     res.end();
-}).listen(port, "34.145.252.50");
+}).listen(port, "localhost");
 console.log(`Node Server is running on port : ${port}`)
