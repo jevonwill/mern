@@ -1,6 +1,6 @@
 const http = require('http');
 const port = 3000;
-const studentsData = require(' ./student_data.json');
+const studentsData = require('./student_data.json');
 http.createServer((req, res) => {
     res.writeHead(200, {
       "Content-Type": "text/plain"
