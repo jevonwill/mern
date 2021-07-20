@@ -1,5 +1,14 @@
 @use '../custom' as *;
 
+.video-box {
+    text-align: justify; 
+    width: 29.375rem;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
 
 .signup-section {
 

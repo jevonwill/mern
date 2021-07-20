@@ -10750,11 +10750,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.col-md-6__image {
-  float: right;
+.video-box {
+  text-align: justify;
+  width: 29.375rem;
 }
-.col-md-6__signup {
-  display: inline;
+.video-box img {
+  display: block;
+  margin: 0 auto;
 }
 
 .signup-section {
