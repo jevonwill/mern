@@ -24,4 +24,4 @@ EXPOSE 5000
 
 # start the application
 
-CMD ["node", "index.html"]
+CMD ["node", "index.js"]
