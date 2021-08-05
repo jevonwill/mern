@@ -4,7 +4,7 @@
   "description": "bootstrap",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss:app/assets/css"
+    "compile:sass": "sass --watch assets/scss:assets/css"
   },
   "repository": {
     "type": "git",
