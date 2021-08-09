@@ -10804,6 +10804,15 @@ textarea.form-control-lg {
   color: #aeaec1 !important;
 }
 
+.banner {
+  background-image: url("img/container.jpeg");
+  width: 100%;
+}
+
+.white-box {
+  background-color: white;
+}
+
 .btn-xl {
   padding: 5px 20px;
   font-size: 20px;

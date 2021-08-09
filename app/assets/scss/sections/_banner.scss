@@ -1,4 +1,11 @@
 @use '../custom' as *;
 
+.banner {
+    background-image: url("img/container.jpeg");
+    width: 100%;
+}
 
+.white-box {
+    background-color: white;
+}
 
