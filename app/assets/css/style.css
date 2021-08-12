@@ -10807,10 +10807,13 @@ textarea.form-control-lg {
 .banner {
   background-image: url("img/container.jpeg");
   width: 100%;
+  display: inline;
 }
 
 .white-box {
   background-color: white;
+  width: 50%;
+  display: block;
 }
 
 .btn-xl {
