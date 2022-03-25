@@ -1,0 +1,31 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch assets/scss:assets/css",
+    "sass": "node-sass -w assets/scss/ -o assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jevonwill/mern.git"
+  },
+  "author": "Jevon Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jevonwill/mern/issues"
+  },
+  "homepage": "https://github.com/jevonwill/mern#readme",
+  "devDependencies": {
+    "@popperjs/core": "^2.9.2",
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
+    "express": "^4.17.1",
+    "postcss-cli": "^8.3.1"
+  }
+}

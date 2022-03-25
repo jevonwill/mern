@@ -1,0 +1,443 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'postcss-cli',
+1 verbose cli   'autoprefixer' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData postcss-cli
+8 silly fetchPackageMetaData autoprefixer
+9 silly fetchNamedPackageData postcss-cli
+10 silly mapToRegistry name postcss-cli
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/postcss-cli
+14 silly fetchNamedPackageData autoprefixer
+15 silly mapToRegistry name autoprefixer
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+19 verbose request uri https://registry.npmjs.org/postcss-cli
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 6:10:03 PM
+22 verbose request id 44198567f445f2a5
+23 http request GET https://registry.npmjs.org/postcss-cli
+24 verbose request uri https://registry.npmjs.org/autoprefixer
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 6:10:03 PM
+27 http request GET https://registry.npmjs.org/autoprefixer
+28 http 200 https://registry.npmjs.org/postcss-cli
+29 verbose headers { date: 'Wed, 23 Jun 2021 18:10:03 GMT',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'transfer-encoding': 'chunked',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'cf-ray': '663fabc6ca545dd9-IAD',
+29 verbose headers   age: '6715',
+29 verbose headers   'cache-control': 'public, max-age=300',
+29 verbose headers   etag: 'W/"09a5fba5e3c08f0946e9892f9dd2e7ca"',
+29 verbose headers   'last-modified': 'Sat, 12 Dec 2020 14:57:08 GMT',
+29 verbose headers   vary: 'accept-encoding, accept',
+29 verbose headers   'cf-cache-status': 'HIT',
+29 verbose headers   'cf-request-id': '0adba9b04200005dd9e31d8000000001',
+29 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+29 verbose headers   server: 'cloudflare',
+29 verbose headers   'content-encoding': 'gzip' }
+30 silly get cb [ 200,
+30 silly get   { date: 'Wed, 23 Jun 2021 18:10:03 GMT',
+30 silly get     'content-type': 'application/json',
+30 silly get     'transfer-encoding': 'chunked',
+30 silly get     connection: 'keep-alive',
+30 silly get     'cf-ray': '663fabc6ca545dd9-IAD',
+30 silly get     age: '6715',
+30 silly get     'cache-control': 'public, max-age=300',
+30 silly get     etag: 'W/"09a5fba5e3c08f0946e9892f9dd2e7ca"',
+30 silly get     'last-modified': 'Sat, 12 Dec 2020 14:57:08 GMT',
+30 silly get     vary: 'accept-encoding, accept',
+30 silly get     'cf-cache-status': 'HIT',
+30 silly get     'cf-request-id': '0adba9b04200005dd9e31d8000000001',
+30 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+30 silly get     server: 'cloudflare',
+30 silly get     'content-encoding': 'gzip' } ]
+31 verbose get saving postcss-cli to /home/jevon.williams/.npm/registry.npmjs.org/postcss-cli/.cache.json
+32 http 200 https://registry.npmjs.org/autoprefixer
+33 verbose headers { date: 'Wed, 23 Jun 2021 18:10:03 GMT',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'transfer-encoding': 'chunked',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'cf-ray': '663fabc6c87b5b28-IAD',
+33 verbose headers   age: '2598',
+33 verbose headers   'cache-control': 'public, max-age=300',
+33 verbose headers   etag: 'W/"25f4a0e538bfb1964d242d80ee2eaf49"',
+33 verbose headers   'last-modified': 'Wed, 26 May 2021 14:32:15 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'cf-request-id': '0adba9b04100005b280ca3c000000001',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   server: 'cloudflare',
+33 verbose headers   'content-encoding': 'gzip' }
+34 silly get cb [ 200,
+34 silly get   { date: 'Wed, 23 Jun 2021 18:10:03 GMT',
+34 silly get     'content-type': 'application/json',
+34 silly get     'transfer-encoding': 'chunked',
+34 silly get     connection: 'keep-alive',
+34 silly get     'cf-ray': '663fabc6c87b5b28-IAD',
+34 silly get     age: '2598',
+34 silly get     'cache-control': 'public, max-age=300',
+34 silly get     etag: 'W/"25f4a0e538bfb1964d242d80ee2eaf49"',
+34 silly get     'last-modified': 'Wed, 26 May 2021 14:32:15 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'cf-request-id': '0adba9b04100005b280ca3c000000001',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     server: 'cloudflare',
+34 silly get     'content-encoding': 'gzip' } ]
+35 verbose get saving autoprefixer to /home/jevon.williams/.npm/registry.npmjs.org/autoprefixer/.cache.json
+36 silly install normalizeTree
+37 silly loadCurrentTree Finishing
+38 silly loadIdealTree Starting
+39 silly install loadIdealTree
+40 silly cloneCurrentTree Starting
+41 silly install cloneCurrentTreeToIdealTree
+42 silly cloneCurrentTree Finishing
+43 silly loadShrinkwrap Starting
+44 silly install loadShrinkwrap
+45 silly loadShrinkwrap Finishing
+46 silly loadAllDepsIntoIdealTree Starting
+47 silly install loadAllDepsIntoIdealTree
+48 silly resolveWithNewModule postcss-cli@8.3.1 checking installable status
+49 silly cache add args [ 'postcss-cli', null ]
+50 verbose cache add spec postcss-cli
+51 silly resolveWithNewModule autoprefixer@10.2.6 checking installable status
+52 silly cache add args [ 'autoprefixer', null ]
+53 verbose cache add spec autoprefixer
+54 silly cache add parsed spec Result {
+54 silly cache add   raw: 'postcss-cli',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'postcss-cli',
+54 silly cache add   rawSpec: '',
+54 silly cache add   spec: 'latest',
+54 silly cache add   type: 'tag' }
+55 silly addNamed postcss-cli@latest
+56 verbose addNamed "latest" is being treated as a dist-tag for postcss-cli
+57 info addNameTag [ 'postcss-cli', 'latest' ]
+58 silly mapToRegistry name postcss-cli
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/postcss-cli
+62 verbose addNameTag registry:https://registry.npmjs.org/postcss-cli not in flight; fetching
+63 silly cache add parsed spec Result {
+63 silly cache add   raw: 'autoprefixer',
+63 silly cache add   scope: null,
+63 silly cache add   name: 'autoprefixer',
+63 silly cache add   rawSpec: '',
+63 silly cache add   spec: 'latest',
+63 silly cache add   type: 'tag' }
+64 silly addNamed autoprefixer@latest
+65 verbose addNamed "latest" is being treated as a dist-tag for autoprefixer
+66 info addNameTag [ 'autoprefixer', 'latest' ]
+67 silly mapToRegistry name autoprefixer
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+71 verbose addNameTag registry:https://registry.npmjs.org/autoprefixer not in flight; fetching
+72 verbose get https://registry.npmjs.org/postcss-cli not expired, no request
+73 silly addNameTag next cb for postcss-cli with tag latest
+74 silly addNamed postcss-cli@8.3.1
+75 verbose addNamed "8.3.1" is a plain semver version for postcss-cli
+76 verbose get https://registry.npmjs.org/autoprefixer not expired, no request
+77 silly addNameTag next cb for autoprefixer with tag latest
+78 silly addNamed autoprefixer@10.2.6
+79 verbose addNamed "10.2.6" is a plain semver version for autoprefixer
+80 silly mapToRegistry name postcss-cli
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/postcss-cli
+84 verbose addRemoteTarball https://registry.npmjs.org/postcss-cli/-/postcss-cli-8.3.1.tgz not in flight; adding
+85 verbose addRemoteTarball [ 'https://registry.npmjs.org/postcss-cli/-/postcss-cli-8.3.1.tgz',
+85 verbose addRemoteTarball   '865dad08300ac59ae9cecb7066780aa81c767a77' ]
+86 silly mapToRegistry name autoprefixer
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+90 verbose addRemoteTarball https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.6.tgz not in flight; adding
+91 verbose addRemoteTarball [ 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.6.tgz',
+91 verbose addRemoteTarball   'aadd9ec34e1c98d403e01950038049f0eb252949' ]
+92 info retry fetch attempt 1 at 6:10:04 PM
+93 info attempt registry request try #1 at 6:10:04 PM
+94 http fetch GET https://registry.npmjs.org/postcss-cli/-/postcss-cli-8.3.1.tgz
+95 info retry fetch attempt 1 at 6:10:04 PM
+96 info attempt registry request try #1 at 6:10:04 PM
+97 http fetch GET https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.6.tgz
+98 http fetch 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.6.tgz
+99 silly fetchAndShaCheck shasum aadd9ec34e1c98d403e01950038049f0eb252949
+100 http fetch 200 https://registry.npmjs.org/postcss-cli/-/postcss-cli-8.3.1.tgz
+101 verbose addTmpTarball /tmp/npm-26387-39a9abef/registry.npmjs.org/autoprefixer/-/autoprefixer-10.2.6.tgz not in flight; adding
+102 verbose addTmpTarball already have metadata; skipping unpack for autoprefixer@10.2.6
+103 silly fetchAndShaCheck shasum 865dad08300ac59ae9cecb7066780aa81c767a77
+104 verbose addTmpTarball /tmp/npm-26387-39a9abef/registry.npmjs.org/postcss-cli/-/postcss-cli-8.3.1.tgz not in flight; adding
+105 verbose addTmpTarball already have metadata; skipping unpack for postcss-cli@8.3.1
+106 silly cache afterAdd autoprefixer@10.2.6
+107 verbose afterAdd /home/jevon.williams/.npm/autoprefixer/10.2.6/package/package.json not in flight; writing
+108 verbose afterAdd /home/jevon.williams/.npm/autoprefixer/10.2.6/package/package.json written
+109 silly cache afterAdd postcss-cli@8.3.1
+110 verbose afterAdd /home/jevon.williams/.npm/postcss-cli/8.3.1/package/package.json not in flight; writing
+111 verbose afterAdd /home/jevon.williams/.npm/postcss-cli/8.3.1/package/package.json written
+112 silly fetchNamedPackageData browserslist
+113 silly mapToRegistry name browserslist
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/browserslist
+117 silly fetchNamedPackageData caniuse-lite
+118 silly mapToRegistry name caniuse-lite
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/caniuse-lite
+122 silly fetchNamedPackageData colorette
+123 silly mapToRegistry name colorette
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npmjs.org/
+126 silly mapToRegistry uri https://registry.npmjs.org/colorette
+127 silly fetchNamedPackageData fraction.js
+128 silly mapToRegistry name fraction.js
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/fraction.js
+132 silly fetchNamedPackageData normalize-range
+133 silly mapToRegistry name normalize-range
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+137 silly fetchNamedPackageData postcss-value-parser
+138 silly mapToRegistry name postcss-value-parser
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/postcss-value-parser
+142 verbose request uri https://registry.npmjs.org/browserslist
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 6:10:04 PM
+145 http request GET https://registry.npmjs.org/browserslist
+146 verbose request uri https://registry.npmjs.org/caniuse-lite
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 6:10:04 PM
+149 http request GET https://registry.npmjs.org/caniuse-lite
+150 verbose request uri https://registry.npmjs.org/colorette
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 6:10:04 PM
+153 http request GET https://registry.npmjs.org/colorette
+154 verbose request uri https://registry.npmjs.org/fraction.js
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 6:10:04 PM
+157 http request GET https://registry.npmjs.org/fraction.js
+158 verbose request uri https://registry.npmjs.org/normalize-range
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 6:10:04 PM
+161 http request GET https://registry.npmjs.org/normalize-range
+162 verbose request uri https://registry.npmjs.org/postcss-value-parser
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 6:10:04 PM
+165 http request GET https://registry.npmjs.org/postcss-value-parser
+166 http 200 https://registry.npmjs.org/normalize-range
+167 verbose headers { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+167 verbose headers   'content-type': 'application/json; charset=UTF-8',
+167 verbose headers   'transfer-encoding': 'chunked',
+167 verbose headers   connection: 'keep-alive',
+167 verbose headers   'cf-ray': '663fabc88b4505ff-IAD',
+167 verbose headers   age: '1171',
+167 verbose headers   'cache-control': 'public, max-age=300',
+167 verbose headers   etag: 'W/"c3a15e353dc95f29f01c259f8cfdfa65"',
+167 verbose headers   'last-modified': 'Sun, 27 May 2018 10:33:46 GMT',
+167 verbose headers   vary: 'accept-encoding, accept',
+167 verbose headers   'cf-cache-status': 'HIT',
+167 verbose headers   'cf-request-id': '0adba9b153000005ffc516b000000001',
+167 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+167 verbose headers   server: 'cloudflare',
+167 verbose headers   'content-encoding': 'gzip' }
+168 silly get cb [ 200,
+168 silly get   { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+168 silly get     'content-type': 'application/json; charset=UTF-8',
+168 silly get     'transfer-encoding': 'chunked',
+168 silly get     connection: 'keep-alive',
+168 silly get     'cf-ray': '663fabc88b4505ff-IAD',
+168 silly get     age: '1171',
+168 silly get     'cache-control': 'public, max-age=300',
+168 silly get     etag: 'W/"c3a15e353dc95f29f01c259f8cfdfa65"',
+168 silly get     'last-modified': 'Sun, 27 May 2018 10:33:46 GMT',
+168 silly get     vary: 'accept-encoding, accept',
+168 silly get     'cf-cache-status': 'HIT',
+168 silly get     'cf-request-id': '0adba9b153000005ffc516b000000001',
+168 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+168 silly get     server: 'cloudflare',
+168 silly get     'content-encoding': 'gzip' } ]
+169 verbose get saving normalize-range to /home/jevon.williams/.npm/registry.npmjs.org/normalize-range/.cache.json
+170 http 200 https://registry.npmjs.org/fraction.js
+171 verbose headers { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+171 verbose headers   'content-type': 'application/json',
+171 verbose headers   'transfer-encoding': 'chunked',
+171 verbose headers   connection: 'keep-alive',
+171 verbose headers   'cf-ray': '663fabc88d210668-IAD',
+171 verbose headers   age: '6688',
+171 verbose headers   'cache-control': 'public, max-age=300',
+171 verbose headers   etag: 'W/"38b43427ff87cf4ef7f914760fce9fd7"',
+171 verbose headers   'last-modified': 'Sun, 23 May 2021 11:51:17 GMT',
+171 verbose headers   vary: 'accept-encoding, accept',
+171 verbose headers   'cf-cache-status': 'HIT',
+171 verbose headers   'cf-request-id': '0adba9b15600000668d32be000000001',
+171 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+171 verbose headers   server: 'cloudflare',
+171 verbose headers   'content-encoding': 'gzip' }
+172 silly get cb [ 200,
+172 silly get   { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+172 silly get     'content-type': 'application/json',
+172 silly get     'transfer-encoding': 'chunked',
+172 silly get     connection: 'keep-alive',
+172 silly get     'cf-ray': '663fabc88d210668-IAD',
+172 silly get     age: '6688',
+172 silly get     'cache-control': 'public, max-age=300',
+172 silly get     etag: 'W/"38b43427ff87cf4ef7f914760fce9fd7"',
+172 silly get     'last-modified': 'Sun, 23 May 2021 11:51:17 GMT',
+172 silly get     vary: 'accept-encoding, accept',
+172 silly get     'cf-cache-status': 'HIT',
+172 silly get     'cf-request-id': '0adba9b15600000668d32be000000001',
+172 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+172 silly get     server: 'cloudflare',
+172 silly get     'content-encoding': 'gzip' } ]
+173 verbose get saving fraction.js to /home/jevon.williams/.npm/registry.npmjs.org/fraction.js/.cache.json
+174 http 200 https://registry.npmjs.org/colorette
+175 verbose headers { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+175 verbose headers   'content-type': 'application/json',
+175 verbose headers   'transfer-encoding': 'chunked',
+175 verbose headers   connection: 'keep-alive',
+175 verbose headers   'cf-ray': '663fabc889b15a7c-IAD',
+175 verbose headers   age: '4422',
+175 verbose headers   'cache-control': 'public, max-age=300',
+175 verbose headers   etag: 'W/"d20221ddc12b16eab88f23524eade178"',
+175 verbose headers   'last-modified': 'Thu, 25 Feb 2021 13:26:18 GMT',
+175 verbose headers   vary: 'accept-encoding, accept',
+175 verbose headers   'cf-cache-status': 'HIT',
+175 verbose headers   'cf-request-id': '0adba9b15600005a7c279d3000000001',
+175 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+175 verbose headers   server: 'cloudflare',
+175 verbose headers   'content-encoding': 'gzip' }
+176 silly get cb [ 200,
+176 silly get   { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+176 silly get     'content-type': 'application/json',
+176 silly get     'transfer-encoding': 'chunked',
+176 silly get     connection: 'keep-alive',
+176 silly get     'cf-ray': '663fabc889b15a7c-IAD',
+176 silly get     age: '4422',
+176 silly get     'cache-control': 'public, max-age=300',
+176 silly get     etag: 'W/"d20221ddc12b16eab88f23524eade178"',
+176 silly get     'last-modified': 'Thu, 25 Feb 2021 13:26:18 GMT',
+176 silly get     vary: 'accept-encoding, accept',
+176 silly get     'cf-cache-status': 'HIT',
+176 silly get     'cf-request-id': '0adba9b15600005a7c279d3000000001',
+176 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+176 silly get     server: 'cloudflare',
+176 silly get     'content-encoding': 'gzip' } ]
+177 verbose get saving colorette to /home/jevon.williams/.npm/registry.npmjs.org/colorette/.cache.json
+178 silly resolveWithNewModule normalize-range@0.1.2 checking installable status
+179 silly cache add args [ 'normalize-range@^0.1.2', null ]
+180 verbose cache add spec normalize-range@^0.1.2
+181 silly cache add parsed spec Result {
+181 silly cache add   raw: 'normalize-range@^0.1.2',
+181 silly cache add   scope: null,
+181 silly cache add   name: 'normalize-range',
+181 silly cache add   rawSpec: '^0.1.2',
+181 silly cache add   spec: '>=0.1.2 <0.2.0',
+181 silly cache add   type: 'range' }
+182 silly addNamed normalize-range@>=0.1.2 <0.2.0
+183 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for normalize-range
+184 silly addNameRange { name: 'normalize-range',
+184 silly addNameRange   range: '>=0.1.2 <0.2.0',
+184 silly addNameRange   hasData: false }
+185 silly mapToRegistry name normalize-range
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+189 verbose addNameRange registry:https://registry.npmjs.org/normalize-range not in flight; fetching
+190 http 200 https://registry.npmjs.org/postcss-value-parser
+191 verbose headers { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+191 verbose headers   'content-type': 'application/json',
+191 verbose headers   'transfer-encoding': 'chunked',
+191 verbose headers   connection: 'keep-alive',
+191 verbose headers   'cf-ray': '663fabc88b6d5e90-IAD',
+191 verbose headers   age: '3469',
+191 verbose headers   'cache-control': 'public, max-age=300',
+191 verbose headers   etag: 'W/"ed949650f3ce96e09473b4f93ed363cd"',
+191 verbose headers   'last-modified': 'Tue, 28 Apr 2020 14:11:57 GMT',
+191 verbose headers   vary: 'accept-encoding, accept',
+191 verbose headers   'cf-cache-status': 'HIT',
+191 verbose headers   'cf-request-id': '0adba9b15500005e90080bd000000001',
+191 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+191 verbose headers   server: 'cloudflare',
+191 verbose headers   'content-encoding': 'gzip' }
+192 silly get cb [ 200,
+192 silly get   { date: 'Wed, 23 Jun 2021 18:10:04 GMT',
+192 silly get     'content-type': 'application/json',
+192 silly get     'transfer-encoding': 'chunked',
+192 silly get     connection: 'keep-alive',
+192 silly get     'cf-ray': '663fabc88b6d5e90-IAD',
+192 silly get     age: '3469',
+192 silly get     'cache-control': 'public, max-age=300',
+192 silly get     etag: 'W/"ed949650f3ce96e09473b4f93ed363cd"',
+192 silly get     'last-modified': 'Tue, 28 Apr 2020 14:11:57 GMT',
+192 silly get     vary: 'accept-encoding, accept',
+192 silly get     'cf-cache-status': 'HIT',
+192 silly get     'cf-request-id': '0adba9b15500005e90080bd000000001',
+192 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+192 silly get     server: 'cloudflare',
+192 silly get     'content-encoding': 'gzip' } ]
+193 verbose get saving postcss-value-parser to /home/jevon.williams/.npm/registry.npmjs.org/postcss-value-parser/.cache.json
+194 silly resolveWithNewModule fraction.js@4.1.1 checking installable status
+195 silly cache add args [ 'fraction.js@^4.1.1', null ]
+196 verbose cache add spec fraction.js@^4.1.1
+197 silly cache add parsed spec Result {
+197 silly cache add   raw: 'fraction.js@^4.1.1',
+197 silly cache add   scope: null,
+197 silly cache add   name: 'fraction.js',
+197 silly cache add   rawSpec: '^4.1.1',
+197 silly cache add   spec: '>=4.1.1 <5.0.0',
+197 silly cache add   type: 'range' }
+198 silly addNamed fraction.js@>=4.1.1 <5.0.0
+199 verbose addNamed ">=4.1.1 <5.0.0" is a valid semver range for fraction.js
+200 silly addNameRange { name: 'fraction.js', range: '>=4.1.1 <5.0.0', hasData: false }
+201 silly mapToRegistry name fraction.js
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/fraction.js
+205 verbose addNameRange registry:https://registry.npmjs.org/fraction.js not in flight; fetching
+206 verbose stack Error: Missing required argument #1
+206 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+206 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+206 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+206 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+206 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+206 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+206 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+206 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+206 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+206 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+207 verbose cwd /home/jevon.williams/mern
+208 error Linux 5.4.0-1043-gcp
+209 error argv "/usr/bin/node" "/usr/bin/npm" "install" "postcss-cli" "autoprefixer"
+210 error node v8.10.0
+211 error npm  v3.5.2
+212 error code EMISSINGARG
+213 error typeerror Error: Missing required argument #1
+213 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+213 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+213 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+213 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+213 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+213 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+213 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+213 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+213 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+213 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+214 error typeerror This is an error with npm itself. Please report this error at:
+214 error typeerror     <http://github.com/npm/npm/issues>
+215 verbose exit [ 1, true ]

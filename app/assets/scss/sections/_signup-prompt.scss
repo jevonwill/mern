@@ -1,0 +1,42 @@
+@use '../custom' as *;
+
+.video-box {
+    text-align: center; 
+    width: 29.375rem;
+
+    img {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.signup-section {
+
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+
+}
+
+.signup {
+    color: #343563 !important;
+    font-size: 42px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-family: 'Nunito', sans-serif;
+
+    h1 {
+        color: #343563 !important;
+    }
+    
+}

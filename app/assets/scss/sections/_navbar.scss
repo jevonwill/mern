@@ -1,0 +1,22 @@
+@use '../custom' as *;
+
+.navbar-brand {
+    padding-left: 1rem;
+}
+
+.navbar {
+    padding-top: 4rem;
+}
+
+.bg-light {
+    background-color: white !important;
+
+    li {
+        margin-left: 2rem;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        color: $gray !important;
+        
+    }
+}

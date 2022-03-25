@@ -1,0 +1,29 @@
+//Always make sure you compile the modified SCSS with the command below.
+// npm run compile:sass
+
+//Font Vars
+body {
+    font-family: 'Nunito', sans-serif;
+
+    
+}
+
+
+
+// Color vars
+$warning: #fcc513 !default; 
+$gray: #aeaec1;
+
+
+
+//.btn-warning {
+ //   background-color: $warning;
+    
+//}
+
+
+
+// Import Bootstrap
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
